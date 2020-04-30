@@ -1,0 +1,47 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px 50px 200px;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.subscribe {
+    margin-bottom: 20px;
+}
+
+.form button {
+    width: 60px;
+    padding: 5px;
+    background-color: tomato;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.peoples {
+    line-height: 30px;
+    padding: 20px;
+    border-top: solid 1.5px #C5C5C5;
+    display: flex;
+    flex-direction: column;
+}
