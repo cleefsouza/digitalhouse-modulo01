@@ -1,0 +1,14 @@
+.about {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+.about p {
+    color: #5C5C5C;
+}
+
+.about img {
+    width: 500px;
+    margin: 20px;
+}
