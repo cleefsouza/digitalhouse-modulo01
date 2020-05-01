@@ -4,7 +4,7 @@
 </>
 
 <h3 align="center">
-  CURSO FRONT ENT CODING FACEBOOK
+  CURSO FRONT END CODING FACEBOOK
 </h3>
 
 <blockquote align="center">MÓDULO 01 - HTML & CSS</blockquote>
