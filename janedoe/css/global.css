@@ -45,12 +45,12 @@ body {
 }
 
 .menu .active a {
-    color: #F66B61;
+    color: #FFC011;
     font-weight: bold;
 }
 
 .menu a:hover {
-    color: #F66B61;
+    color: #FFC011;
 }
 
 .footer {
