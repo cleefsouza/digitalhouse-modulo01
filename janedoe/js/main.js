@@ -5,4 +5,6 @@ $("#my-form").submit(function(e) {
     $.post($form.attr("action"), $form.serialize()).then(function() {
         alert("Thank you!");
     });
+
+    window.location.reload();
 });
