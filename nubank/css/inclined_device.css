@@ -1,0 +1,19 @@
+.inclined-device {
+    padding: 80px 0 80px 0;
+
+    background-color: #F5F5F5;
+
+    color: #767676;
+}
+
+.inclined-device .h2-title {
+    color: #8A05BE;
+}
+
+.text-inclined-device {
+    margin-left: 20vh;
+}
+
+.text-inclined-device img {
+    margin-right: 20vh;
+}

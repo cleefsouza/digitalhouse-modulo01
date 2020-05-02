@@ -1,0 +1,20 @@
+.holding-card {
+    padding-top: 80px;
+
+    background-color: #FFF;
+
+    color: #767676;
+}
+
+.holding-card .h2-title {
+    color: #8A05BE;
+}
+
+.text-holding-card {
+    margin-left: 20vh;
+}
+
+.holding-card img {
+    width: 40vh;
+    margin-right: 20vh;
+}

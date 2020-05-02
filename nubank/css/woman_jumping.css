@@ -1,0 +1,23 @@
+.woman-jumping {
+    height: 700px;
+    margin: 160px 20vh 100px 20vh;
+
+    background-image: url("../img/woman-jumping@1x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #FFF;
+
+    border-bottom: solid 3px #111;
+}
+
+.text-woman-jumping {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 19rem;
+}
+
+.text-woman-jumping p {
+    margin-bottom: 32px;
+}

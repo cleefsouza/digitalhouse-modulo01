@@ -1,0 +1,31 @@
+.rewards-home-card {
+    padding: 80px 0 80px 0;
+
+    background-color: #530082;
+
+    color: #CA8EE2;
+}
+
+.text-rewards-home-card a {
+    color: #FFF;
+    border-bottom: solid 1px #CA8EE2;
+}
+
+.text-rewards-home-card h2 > a {
+    font-size: 48px;
+
+    cursor: pointer;
+}
+
+.text-rewards-home-card a.link:hover {
+    border-bottom: solid 1px #FFF;
+}
+
+.text-rewards-home-card {
+    margin-left: 20vh;
+}
+
+.rewards-home-card img {
+    margin-right: 20vh;
+    width: 60vh;
+}
