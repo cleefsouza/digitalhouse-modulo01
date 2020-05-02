@@ -48,6 +48,7 @@ h1, h2 {
 }
 
 .link {
+    font-size: 18px;
     text-decoration-color: #CCC;
     color: #8A05BE;
 
@@ -169,7 +170,7 @@ h1, h2 {
 /* inclined-device */
 
 .container-inclined-device {
-    padding: 80px;
+    padding: 80px 0 80px 0;
 
     align-items: center;
     justify-content: space-around;
@@ -188,14 +189,14 @@ h1, h2 {
 }
 
 .text-inclined-device {
-    margin: 0 -20vh 0 20vh;
+    margin: 0 -20vh 0 5vh;
     max-width: 30rem;
 }
 
 /* holding-card */
 
 .container-holding-card {
-    padding: 80px;
+    padding-top: 80px;
 
     align-items: center;
     justify-content: space-around;
