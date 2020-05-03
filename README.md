@@ -25,3 +25,10 @@
 
 > Simples portfólio utilizando `HTML5` e `CSS3`  
 **Link:** https://janedoe-cleef.netlify.app/
+
+#### NUBANK HOME PAGE
+
+<img src="/nubank/img/my_nubank_home_page.png" alt="Nubank" width="500">
+
+> Clone da home page do Nubank com `HTML5` e `CSS3`  
+**Link Nubank:** https://nubank.com.br/
