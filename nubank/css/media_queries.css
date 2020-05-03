@@ -1,0 +1,295 @@
+@media screen and (min-width: 1500px) {
+    .text-inclined-device, .text-holding-card,
+    .text-rewards-home-card, .text-challenge-system-large
+    .text-nucommunity {
+        padding-right: 400px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .inclined-device {
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .woman-jumping {
+        margin: 160px 5vh 100px 5vh;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    h1, h2 {
+        font-size: 2em;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .rewards-home-card  {
+        flex-direction: column;
+    }
+
+    .text-rewards-home-card {
+        margin-left: 0;
+    }
+
+    .rewards-home-card img {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .nav ul {
+        display: none;
+    }
+
+    .nav .nav-btn {
+        display: none;
+    }
+
+    .navbar img {
+        width: 10vh !important;
+    }
+    
+
+    .btn-purple {
+        min-height: 10%;
+        padding: 19px 32px;
+    }
+
+    .text-inclined-device {
+        margin-left: 10vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .woman-jumping {
+        margin: 160px 5vh 100px 5vh;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .text-inclined-device {
+        margin-left: 5vh;
+    }
+
+    .text-holding-card {
+        margin-left: 5vh;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .container {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .inclined-device {
+        flex-direction: column;
+    }
+    .text-inclined-device {
+        margin-left: 5vh;
+    }
+
+    .inclined-device img {
+        margin-top: 100px;
+    }
+
+    .holding-card {
+        flex-direction: column;
+    }
+    
+    .holding-card img {
+        width: 40vh;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .text-rewards-home-card {
+        margin-left: 2vh;
+    }
+
+    .challenge-system-large {
+        flex-direction: column;
+
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .text-challenge-system-large {
+        margin-left: 2vh;
+    }
+
+    .nucommunity {
+        flex-direction: column;
+
+        background-image: url("../img/nucommunity@0.5x.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .text-nucommunity {
+        margin-left: 2vh;
+    }
+
+    .holding-device-smile {
+        flex-direction: column;
+
+        background-image: url("../img/holding-device-smile@0.5x.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .text-holding-device-smile {
+        margin-left: 2vh;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .text-inclined-device, .text-holding-card,
+    .text-rewards-home-card, .text-challenge-system-large
+    .text-nucommunity, .text-holding-device-smile {
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    .holding-device-smile {
+        justify-content: flex-end;
+    }
+
+    .text-holding-device-smile {
+        margin-bottom: 50px;
+    }
+
+    .woman-jumping {
+        margin: 160px 0;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #btn-quero-ser-nubank {
+        display: inline;
+    }
+
+    .btn-purple {
+        display: none;
+    }
+
+    .woman-jumping {
+        flex-direction: column;
+        align-items: center;
+
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .text-woman-jumping {
+        max-width: 80%;
+        margin-top: 80px;
+    }
+
+    .woman-jumping img {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .inclined-device img {
+        margin-left: -5vh;
+    }
+
+    .holding-card img {
+        width: 20vh;
+    }
+
+    .footer {
+        margin-bottom: 5vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .inclined-device img {
+        width: 35vh;
+    }
+
+    .rewards-home-card img {
+        width: 40vh;
+    }
+
+    .footer, .footer-row, .address {
+        flex-direction: column;
+    }
+
+    .footer-row {
+        margin-left: 5vh;
+    }
+    
+
+    .infos {
+        align-items: center;
+        margin: 0;
+    }
+
+    .address img {
+        margin: 0;
+    }
+
+    .social-media {
+        margin: 25px 0 25px 0;
+    }
+
+    .social-media:last-child {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .radios {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        margin-left: 0;
+
+    }
+
+    .radio label {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .radios:last-child {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .woman-jumping img {
+        width: 40vh;
+
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .woman-jumping img {
+        width: 40vh;
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        width: 35ex !important;
+    }
+
+    .address img {
+        margin: -50px 0 -50px 0;
+    }
+}
