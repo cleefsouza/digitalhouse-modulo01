@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+body, button, input {
+    font-family: Arial,sans-serif;
+    font-size: 0.9em;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    max-height: 640px;
+    max-width: 350px;
+}
+
+#phone {
+    max-height: 600px;
+    max-width: 350px;
+    padding: 1px;
+    overflow-y: auto;
+    border: solid 5px #444444;
+    border-radius: 1em;
+    position: relative;
+    background: #F5F5F5;
+}
+
+#top-phone {
+    height: 1.5em;
+    background: #444444;
+    position: relative;
+    display: block;
+    top: -.3em;
+    left: -2px;
+    margin-right: -100px;
+    margin-bottom: 5px;
+    width: 341px;
+    border-radius: .2em .2em 0 0;
+}
+
+#top-phone i.fa-square {
+    position: absolute;
+    min-width: 30%;
+    top: 1px;
+    left: 7em;
+    background: #686868;
+    color: #686868;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#top-phone i.fa-dot-circle {
+    position: absolute;
+    top: 5px;
+    left: 30em;
+    font-size: .7em;
+    color: #9E9E9E;
+
+}
+
+.tuto {
+    font-size: 1em;
+    color: #686868;
+}
+
+.nav {
+    height: 80px;
+    width: 339px;
+    padding-bottom: 10px;
+    background: #C9D100;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    color: #FFF;
+    font-weight: bold;
+    position: fixed;
+}
+
+.nav i, img {
+    cursor: pointer;
+}
+
+.nav i {
+    color: #FFF;
+    font-size: 1.5em;
+}
+
+.nav img {
+    width: 10em;
+}
+
+.nav input {
+    width: 40vw;
+    height: 5vh;
+    border: none;
+    border-radius: .6em;
+}
+
+.nav input::placeholder {
+    padding: 10px;
+    color: #CCC;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.nav-btn {
+    padding: 1em;
+    border: none;
+    background: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.em-alta {
+    margin-top: 80px;
+    padding: 1em;
+    white-space:nowrap;
+    overflow-x: auto;
+    color: #212121;
+    background: #FFF;
+}
+
+.em-alta label {
+    color: #444444;
+    font-weight: bold;
+}
+
+.em-alta i {
+    color: #EE583E;
+    font-size: 0.7em;
+}
+
+.em-alta p {
+    display: inline;
+}
+
+.em-alta p:hover {
+    color: #C9D100;
+    cursor: pointer;
+}
+
+.em-alta p span {
+    color: #757575;
+    font-weight: 400;
+}
+
+.btn-banner-1, .banner-1 {
+    background: #FFF;
+}
+
+.btn-badge span {
+    width: 70px;
+    padding: .8em;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.badge-success {
+    background: #5EB70B !important;
+}
+
+.banner-1 img {
+    width: 22em;
+    border-radius: 10px 10px 0 0;
+}
+
+.play-banner-1 {
+    width: 22em;
+    padding: 15px 15px 15px 15px;
+    background: #5EB70B;
+    border-radius: 0 0 10px 10px;
+    color: #FFF;
+}
+
+.play-banner-1 p {
+    font-size: .8em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.play-banner-1 i {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.estilo-rock {
+    margin: 1em;
+}
+
+.span-title{
+    display: block;
+    font-weight: 600;
+    color: #C9D100;
+}
+
+.estilo-rock .row .col {
+    text-align: center;
+    cursor: pointer;
+}
+
+.estilo-rock .row .col i {
+    font-size: 2em;
+}
+
+.mostrar-mais {
+    width: 100%;
+    border: solid 1px #CCC;
+}
