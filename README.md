@@ -16,19 +16,3 @@
 </p>
 
 <hr>
-
-### SITES DESENVOLVIDOS
-
-#### JANE DOE
-
-<img src="/janedoe/mockups/mockup_home_v2.jpeg" alt="Jane Doe" width="500">
-
-> Simples portfólio utilizando `HTML5` e `CSS3`  
-**Link:** https://janedoe-cleef.netlify.app/
-
-#### NUBANK HOME PAGE
-
-<img src="/nubank/img/my_nubank_home_page.png" alt="Nubank" width="500">
-
-> Clone da home page do Nubank com `HTML5` e `CSS3`  
-**Link:** https://nubank-cleef.netlify.app/
